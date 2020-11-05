@@ -293,22 +293,6 @@ const listAnagram = function(string) {
     }
 };
 
-/*
-let ana = function(str, pref = ' ') {
-  if(str <= 0) console.log(pref + str)
-  else {
-    for(let i = 0; i < str.length; i++) {
-      let currChar = str.substring(i, i + 1)
-      let prevChar = str.substring(0, i)
-      let otherChar = str.substring(i + 1)
-      ana(prevChar + otherChar, pref + currChar)
-    }
-  }
-}
-
-ana('east')
-*/
-
 
 /* 11. Organization Chart
 Write a recursive function that prints the following organization 
